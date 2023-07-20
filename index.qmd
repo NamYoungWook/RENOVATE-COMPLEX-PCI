@@ -1,0 +1,158 @@
+---
+title: "관상동맥 중재술(PCI) 가이드 전략 비교(RENOVATE-COMPLEX-PCI)"
+author: "Nam YoungWook"
+format: 
+  revealjs:
+    slide-number: true
+    transition: slide
+    theme: white
+    footer: RENOVATE-COMPLEX-PCI
+editor: visual
+---
+## 저널리뷰
+<br><br>
+**"Intravascular Imaging–Guided or**<br>
+**Angiography-Guided Complex PCI"**
+
+## 용어 설명
+
+**Coronary Artery Disease(CAD)** : 관상동맥질환
+<br> <br> 
+
+**Coronary Angiography(CAG)** : 관상동맥 조영술 
+-> 혈관에 얇은 관을 넣어서 심장혈관을 관찰하는 검사
+<br> <br> 
+
+**Percutaneous Coronary Intervention(PCI)** : 경피적 관상동맥 중재술 -> 혈관에 스텐트를 삽입하거나 풍선으로 확장시키는 방법으로 관상동맥의 협착 부위를 넓혀 주는 시술법
+<br><br>
+
+*관상동맥 : 심장 근육에 혈액을 공급하는 동맥혈관.
+
+## 용어 설명
+**Optical Coherence Tomography(OCT)** : 레이저 광원을 사용하여 조직의 구조와 형태를 이미지화하는 비침습적인 의료 영상 기술.
+<br> <br> 
+**Intrvascular Ultrasonography(IVUS)** : 관상동맥의 구조 및 협착을 진단하기 위해 초음파로 확인하는 방법<br><br>
+
+**Intravascular Imaging** = OCT + IVUS
+
+## 연구 목적{.smaller}
+
+- PCI 시행 중 IVUS와 OCT을 이용한 영상화는 적절한 스텐트 크기 선택 및 관상동맥에서 스텐트의 착지 위치를 결정한다. 또한 스텐트 혈전, 심근 경색증, 혈관 재형성 위험을 증가시킬 수 있는 조건을 판단하는 데 사용 <br><br>
+
+- Intravascular Guided PCI와 Angiography Guided PCI이후의 임상 결과를 비교한 자료가 제한적.<br><br>
+
+- Complex CAD를 가진 환자들에서 Intravascular 가이드 PCI가 Angiography 가이드 PCI와 비교하여 임상 결과를 개선시킬 수 있는지 조사하기 위해 **RENOVATE-COMPLEX-PCI** 시행
+
+
+## Method{.smaller .scrollable}
+
+::: panel-tabset
+### 실험설계
+- 복잡한 관상동맥 병변을 가진 19세 이상의 PCI를 받는 환자들이 연구 대상
+<br> <br>
+- PCI는 수술자의 재량에 따라 선택된 표준기술을 사용.
+<br><br>
+- 귀무가설 =><br>
+**Intravascular 그룹의 Primary outcome과 Angiography 그룹의 Primary outcome간의 차이가 없다.**
+
+### Sample size1
+-**sample size** : 1620명 (Intravascular:Angiography = 2:1 랜덤 배정) <br>
+
+(∵연구기간내에 Intravascular그룹에서는 연간 3.6%, Angiography 그룹에서는 연간 6%의 표본에서 Primary outcome이 발생할 것으로 가정함)<br><br>
+- **Power** : 90% <br><br>
+- **type I error rate**: 5% <br><br>
+- **two-sided 검정** <br><br>
+- **withdrawal**: 5%<br><br>
+(등록기간 3년+추적기간 1년)
+
+
+
+### Sample size2
+-논문에는 **log rank test**를 사용하여 sample size 구했다고 하였으나, 실제 계산결과는 1620명과 크게 달랐다.
+
+-[**Sample size**](https://nshi.jp/en/js/twosurvyr/)에서 log rank test가 아닌 Gehan rank test를 이용하여 비슷한 sample 수를 구하였다.
+
+![](https://user-images.githubusercontent.com/87808247/254646355-bfe43072-69c9-4d6a-8fab-02e2ba15f413.png){height=50%}
+
+
+:::
+## Analysis{.smaller}
+::: panel-tabset
+### 통계분석
+생존분석 방법이용
+
+1. Cox proportional-hazards model -공변량 통제하에 시간&사건 관계 분석, hazard ratio 95% C.I
+<br>
+
+2. Kaplan-Meier method - 관찰 시간에 따라 event가 발생한 시점의 사건 발생률을 계산
+
+- Intention-to-treat(ITT, 치료의도) 
+
+### 평가방법
+**Primary end points**<br>
+  1. Death from cardiac causes (심장 병에 의한 사망)<br><br>
+  2. target-vessel-related Myocardial Infarction (표적 혈관 관련 심근경색)<br><br>
+  3. target-vessel-related Revascularization (표적 혈관 재혈관화 수술)<br><br>
+
+
+**Secondary end points**<br>
+  그외 다른 원인에 의한 사망, 스텐트 혈전 등..
+:::
+
+
+## Result 1{.smaller .scrollable}
+::: panel-tabset
+### Patients
+- 1639명의 환자 선별<br>
+
+- Intravascular Imaging 그룹: 1092명, Angiography 그룹: 547명 - Randomization<br>
+
+- 기준 시점 환자의 임상적 특성은 두 그룹 모두 유사<br>
+
+- Intravascular 그룹 14명 환자는 영상장치를 사용하지 못함.<br>
+- Angiography 그룹 13명 환자는 연구 절차 중 영상장치를 사용.<br>
+- 그러나 ITT 분석을 사용하였으므로 프로토콜을 위반한 환자들도 분석에 포함.<br>
+
+### Table
+![](https://user-images.githubusercontent.com/87808247/254650439-5dcf2e72-e4ca-425d-bed4-640eafda9411.png)
+:::
+
+
+## Result 2{.smaller .scrollable}
+::: panel-tabset
+### Procedural
+- 혈관조영술 집단과 영상 집단 간 관상동맥 표적 병변의 특성 및 PCI 절차는 유사함.<br>
+
+- 혈관 내 영상 집단의 1092명 환자 중 800명 (73.3%)은 IVUS, 278명 (25.5%)은 OCT를 사용.<br>
+
+-약물 유출 스텐트로 Complex 관상동맥 병변을 치료하였으며, 1639명 중 1613명(98.4%)의 수술이 성공적.
+
+### Table
+![](https://user-images.githubusercontent.com/87808247/254633353-8597c1db-eb7c-4d61-8f71-3af6faf17591.png)
+
+### End points
+-Imaging group환자 중 76명(7.7%), Angiography group환자 중 60명(12.3%)에서 Primary End Point 발생.(3년 누적)<br><br>
+-hazard ratio: 0.64, 95% CI : 0.45~0.89, p-value: 0.008 <br><br>
+
+-절차와 관련 없는 target-vessel failure 위험은 Imaging group(5.1%)이  Angiography group(8.7%)보다 낮은 것으로 확인됨<br><br> 
+-hazard ratio: 0.59, 95% CI: 0.39~0.90
+
+### Table
+![](https://user-images.githubusercontent.com/87808247/254633361-d3f9cc68-450a-47b3-a6c2-2e218b19909b.png)
+![](https://user-images.githubusercontent.com/87808247/254633366-bc815ffc-a4df-4fda-be32-47028ae8acc7.png)
+:::
+
+## Conclusion{.smaller}
+:::panel-tabset
+### 결론
+- RENOVATE-COMPLEX-PCI에서는 중간 추적 기간인 2.1년 동안, complex coronary lesions 에 대한 Intravascular imaging group의 PCI가 angiography group PCI보다 Primary End Point 누적 발병률이 낮다.<br><br>
+
+- 절차와 관련된 안전 사건의 발생률에서는 그룹 간 유의한 차이없음.<br><br>
+
+- 이전에 수행된 연구에서는 경증의 환자만을 대상으로 하거나 표본 수가 충분하지 않았다는 점을 해소하였다.
+
+### 한계
+1. 수술자는 환자의 그룹을 알 수 밖에 없었다.<br><br>
+
+2. 혈관 내 영상에 의해 정의된 stent 최적화는 전체 환자 중에서 45.4%만 수행되었다. 
+:::
